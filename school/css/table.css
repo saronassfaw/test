@@ -1,0 +1,27 @@
+:root{
+    font-size: 20px;
+}
+
+table{
+   width: 100%;
+   cursor: text;
+}
+
+th,
+td{
+    background-color: lightgrey;
+    transition: all 1s linear;
+    color: black;
+}
+td:hover{
+    background-color: lightblue;
+    color: white;
+}
+
+th span{
+    visibility: hidden;
+}
+th:hover span{
+    visibility: visible;
+    transition: 2s;
+}

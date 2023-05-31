@@ -1,0 +1,64 @@
+:root{
+    font-size: 20pt;
+}
+body{
+    padding: 0;
+    margin: 0;
+
+}
+
+div#b1,
+div#b2,
+div#b3,
+div#b4,
+div#b5{
+    width: 100%;
+}
+div {
+    height: 20vh;
+    width: 100px;
+    background-color:red;
+}
+div#b1,
+div#b2,
+div#b3,
+div#b4,
+div#b5
+ {
+    width: 100%;
+}
+div#b1{
+    width: 20vw;
+    position: relative;
+    top: 80vh;
+}
+
+div#b2 {
+    width: 40vw;
+    background-color: blue;
+    position: relative;
+    top: 40vh;
+
+}
+
+div#b3{
+    width: 60vw;
+    background-color: black;
+    position: relative;
+    top: 0vh;
+}
+
+div#b4{
+    width: 80vw;
+    position: relative;
+    top: -40vh;
+    
+}
+div#b5{
+    width: 100vw;
+    position: relative;
+    top: -80vh;
+}
+section div:first-child{
+    color: black;
+}

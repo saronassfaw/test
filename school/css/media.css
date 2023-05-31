@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+@media print and (max-width:768px) and (min-width:700px) {
+    body{
+        align-items: flex-start;
+    }
+}

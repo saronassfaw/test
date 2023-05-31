@@ -1,0 +1,9 @@
+ul {
+  padding: 0;
+}
+ul li {
+  font-weight: bold;
+}
+ul li:first-child {
+  color: red;
+}/*# sourceMappingURL=test.css.map */

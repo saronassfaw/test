@@ -1,0 +1,32 @@
+body{
+    background-color:black;
+}
+ul li{
+    color: white;
+}
+#genres
+    {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    list-style: none;
+    }
+
+.indie
+    {
+    font-weight: bold;
+    line-height: 130px;
+    font-size: 100px;
+    color:white;
+    }
+a{
+    text-decoration: none;
+}
+a:hover {
+    background-color: yellow;
+  }
+div {
+    border: 10px solid white;
+    padding:100px;
+    margin-right: 50px;
+    margin-left: 50px;
+}

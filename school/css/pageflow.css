@@ -1,0 +1,10 @@
+h1,  
+h2 
+{
+    display: inline;
+}
+
+img{
+    width: 100px;
+    display: block;
+}

@@ -1,0 +1,21 @@
+.default {
+  border-radius: 5px;
+  background-color: lightblue;
+  font-size: 16px;
+  padding: 10px;
+  border: 2px solid darkblue;
+  background-color: red;
+}
+
+.primary {
+  border-radius: 20px;
+  background-color: lightblue;
+  font-size: 22px;
+  padding: 10px;
+  border: 2px solid darkblue;
+}
+
+.primary {
+  background-color: blue;
+  color: white;
+}/*# sourceMappingURL=buttons.css.map */

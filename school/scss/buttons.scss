@@ -1,0 +1,19 @@
+@mixin basicButton($border-radius: 10px, $font-size: 20px){
+    border-radius: $border-radius;
+    background-color: lightblue;
+    font-size: $font-size;
+    padding: 10px;
+    border: 2px solid darkblue;
+}
+
+.default{
+    @include basicButton(5px, 16px);
+    background-color: red;
+}
+.primary{
+    @include basicButton(20px, 22px);
+}
+.primary{
+    background-color: blue;
+    color: white;
+}
